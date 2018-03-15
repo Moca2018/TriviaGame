@@ -22,7 +22,7 @@ $('#submit').on('click',function(){
     }
 
 })
-var correctAnswers = ["male","female","other"]
+var correctAnswers = ["trump","gold","71"]
 var incorrect = 0 
 var userAnswers = []
 var correct = 0
