@@ -1,5 +1,18 @@
-.jumbotron {
-    color: blue;
-    font-weight: bold;
-    text-align: center;
+
+body {
+      background-image: url("http://1l6rvb332wtp143g60vxqaz5.wpengine.netdna-cdn.com/wp-content/uploads/2013/08/bg-team-large2x-2000x1375.jpg"); 
 }
+
+
+.jumbotron {
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    text-shadow: black .3em 1.3em 1.3em;
+    background: transparent;
+    background-image: url("http://www.guoguiyan.com/data/out/6/70273544-america-wallpapers.jpeg"); 
+}
+
+

@@ -8,28 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <script src="./assets/javascript/app.js"></script>
-
      <!-- Added a link to Bootstrap-->
      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-  crossorigin="anonymous">
-
-      <!-- jQuery -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-
-
+     crossorigin="anonymous">
+     <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body>
 
-        <div class="jumbotron">
-                <h1>Totally Trivial Trivia!</h1>
-        </div>
+<body>        
+    <div class="jumbotron">
+        <h1>Totally Trivial Trivia!</h1>
+    </div>
+    
+        <p>
+            <button class="starting">Click Here to start Game</button>
+        </p>
 
         <form id="triviaForm">
             
-            <div class="form-group">
-                <p>Who is the president of the United States?</p>
-                 <label for="obama">Barack Obama</label>
+        <div class="form-group">
+            <p>Who is the president of the United States?</p>
+                <label for="obama">Barack Obama</label>
                 <input type="radio" name="q1" id="obama" value="obama"><br>
                 <label for="Bush">George Bush</label>
                 <input type="radio" name="q1" id="bush" value="bush"><br>
@@ -38,31 +37,29 @@
             </div>
 
             <div class="form-group">
-                    <p>What is the president's favorite color?</p>
-                    <label for="blue">Blue</label>
-                    <input type="radio" name="q2" id="blue" value="blue"><br>
-                    <label for="red">Red</label>
-                    <input type="radio" name="q2" id="female" value="female"><br>
-                    <label for="gold">Gold</label>
-                    <input type="radio" name="q2" id="gold" value="gold"><br><br>
-                </div>
+                <p>What is the president's favorite color?</p>
+                <label for="blue">Blue</label>
+                <input type="radio" name="q2" id="blue" value="blue"><br>
+                <label for="red">Red</label>
+                <input type="radio" name="q2" id="female" value="female"><br>
+                <label for="gold">Gold</label>
+                <input type="radio" name="q2" id="gold" value="gold"><br><br>
+            </div>
 
-                <div class="form-group">
-                        <p>What is the actual president's name?</p>
-                        <label for="75">75</label>
-                        <input type="radio" name="q3" id="75" value="75"><br>
-                        <label for="71">71</label>
-                        <input type="radio" name="q3" id="71" value="71"><br>
-                        <label for="77">77</label>
-                        <input type="radio" name="q3" id="77" value="77"><br><br>
-                    </div>
-
-   
+            <div class="form-group">
+                <p>How old is the president?</p>
+                <label for="75">75</label>
+                <input type="radio" name="q3" id="75" value="75"><br>
+                <label for="71">71</label>
+                <input type="radio" name="q3" id="71" value="71"><br>
+                <label for="77">77</label>
+                <input type="radio" name="q3" id="77" value="77"><br><br>
+            </div>
+  
         </form>
-        <button id="submit">submit</button>
+            <button id="submit">Done</button>
 
 
-
-
+            
 </body>
 </html>

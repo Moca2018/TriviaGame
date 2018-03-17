@@ -21,6 +21,8 @@ $('#submit').on('click',function(){
         }
     }
 
+    
+
 })
 var correctAnswers = ["trump","gold","71"]
 var incorrect = 0 
@@ -28,6 +30,13 @@ var userAnswers = []
 var correct = 0
 var unanswer = 0
 
+
+
+
 })
 
-//timers, showing the users score, done!
+//pending: timers
+//pending: showing the users score
+//pending: done!
+
+
